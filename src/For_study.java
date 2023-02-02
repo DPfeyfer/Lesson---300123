@@ -31,7 +31,7 @@ public class For_study {
 
     public static void lesson_2() {
         Person denis = new Person("Denchik", 30, 95, "Programmer");
-        Person ivan = new Person("Ivann", 50, 85, "Driver");
+        Person ivan = new Person("Ivan", 50, 85, "Driver");
         System.out.println("denis.name = " + denis.name);
         System.out.println("denis.age = " + denis.age);
         System.out.println("denis.weight = " + denis.weight);
