@@ -1,3 +1,5 @@
+package Study;
+
 public class Person {
     private String name;
     private int age;
@@ -18,9 +20,11 @@ public class Person {
     public int getAge() {
         return this.age;
     }
+
     public int getWeight() {
         return this.weight;
     }
+
     public String getProfession() {
         return this.profession;
     }
