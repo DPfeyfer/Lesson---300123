@@ -11,6 +11,10 @@ public class Author {
         this.familyName = familyName;
     }
 
+    public Author() {
+
+    }
+
     public String getName() {
         return this.name;
     }
@@ -21,6 +25,18 @@ public class Author {
 
     public String getFamilyName() {
         return this.familyName;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurName(String surName) {
+        this.surName = surName;
+    }
+
+    public void setFamilyName(String familyName) {
+        this.familyName = familyName;
     }
 }
 
